@@ -1,0 +1,10 @@
+h2{
+    color: rgba(33, 164, 147, 0.5);
+    font-size: 60px;
+    border-style: groove;
+    border-color:black;
+}
+
+body{
+    background-color: linen
+}
