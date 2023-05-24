@@ -1,17 +1,47 @@
+@font-face {
+    font-family: 'Blacklisted';
+    src: url(fonts/Blacklisted.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'TypeMachine';
+    src: url(fonts/Type\ Machine.ttf) format('truetype');
+}
+    
+@font-face {
+        font-family: 'Sanserif';
+        src: url('MADEINFINITY PERSONALUSE-Regular') format('truetype');
+    }
+
+
 h2{
-    color: rgba(33, 164, 147, 0.5);
-    font-size: 60px;
+    font-family: 'Blacklisted', sans-serif;
+    color: #fff;
+    font-size: 80px;
     border-style: groove;
-    border-color:black;
+    border: 3px red solid;
 }
 
 body{
-    background-color: linen
+    background-color: black;
 }
 
+p1{    color:#fff;
+    font-size: 20px;
+    font-family: 'TypeMachine' , sans-serif;
+}
 body{
-   
+    font-family: 'Sanserif', sans-serif;
+ border: 2px blue solid;
     text-align: center;
+    color:#fff;
+
+    background: center url(YoutubeBanner.jpg);
+  /*Tiled BG*/
+/*   background: url(https://images.unsplash.com/photo-1460602594182-8568137446ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c6a89cf0d31c8ed23b35aaf9a119a9f5&w=1000&q=80); */
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+   
+
 }
 
 .one{
